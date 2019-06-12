@@ -129,6 +129,7 @@ class SalaryCalculatorApp extends React.Component<Props, SalaryCalculatorAppStat
                                 setTitleFn={(title) => this.setTitle(title)}
                                 setLevelFn={(title) => this.setLevel(title)} />
                         </div>
+                        <div className="title-text" dangerouslySetInnerHTML={{__html: "At Convivio I'd earn … "}}></div>
                     </form>
                     </div>
                 </div>

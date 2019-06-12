@@ -23,15 +23,15 @@ class SalaryDisplay extends React.Component {
             <div>
                 <style jsx>{`
                     p.salary {
-                    font-size: 20px;
-                    line-height: 20px;
+                    font-size: 30px;
+                    line-height: 30px;
                     margin-bottom: 20px;
                     min-width: 300px;
                     text-align: center;
                     }
                 `}</style>
                 <p className="salary">
-                    <span>From</span>
+                    <span>… from</span>
                     &nbsp;
                     <CurrencyFormat value={this.salaryLow} displayType={'text'} thousandSeparator={true} prefix={'£'}></CurrencyFormat>
                     &nbsp;
