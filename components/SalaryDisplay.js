@@ -34,7 +34,7 @@ class SalaryDisplay extends React.Component {
                     <span>From</span>
                     &nbsp;
                     <CurrencyFormat value={this.salaryLow} displayType={'text'} thousandSeparator={true} prefix={'£'}></CurrencyFormat>
-                    &nbsp; 
+                    &nbsp;
                     <span>to</span>
                     &nbsp;
                     <CurrencyFormat value={this.salaryHigh} displayType={'text'} thousandSeparator={true} prefix={'£'}></CurrencyFormat>
