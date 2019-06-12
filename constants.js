@@ -29,24 +29,36 @@ export type MilestoneMap = {
 export const milestones = [0, 1, 2, 3, 4, 5, 6]
 
 export const salaryLevels = {
-  '1.1': '33000',
-  '1.2': '33750',
-  '1.3': '34500',
-  '2.1': '38000',
-  '2.2': '39000',
-  '2.3': '40000',
-  '3.1': '44000',
-  '3.2': '45000',
-  '3.3': '46250',
-  '4.1': '51500',
-  '4.2': '52750',
-  '4.3': '54000',
-  '5.1': '60750',
-  '5.2': '62250',
-  '5.3': '63750',
-  '6.1': '72250',
-  '6.2': '74000',
-  '6.3': '75750',
+  1 : {
+    1 : '33000',
+    2 : '33750',
+    3 : '34500'
+  },
+  2 : {
+    1 : '38000',
+    2 : '39000',
+    3 : '40000'
+  },
+  3 : {
+    1 : '44000',
+    2 : '45000',
+    3 : '46250'
+  },
+  4 : {
+    1 : '51500',
+    2 : '52750',
+    3 : '54000'
+  },
+  5 : {
+    1: '60750',
+    2 : '62250',
+    3 : '63750'
+  },
+  6 : {
+    1 : '72250',
+    2 : '74000',
+    3: '75750'
+  }
 }
 
 export type Track = {
@@ -230,3 +242,13 @@ export const trackTitles: Map<string> = trackIds.reduce((map, trackId) => {
   map.set(tracks[trackId].displayName, tracks[trackId].milestones)
   return map
 }, new Map())
+
+export const titleLevels: Map<string> = trackIds.reduce((map, trackId) => {
+  tracks[trackId].milestones.map((milestone, milestoneId) => (
+    milestone['titles'].map(title => {
+      map.set(title, milestoneId + 1)
+    })
+  ))
+  return map
+}, new Map())
+
