@@ -175,15 +175,11 @@ export const tracks: Tracks = {
     },
     'COMMUNICATION': {
       "displayName": "Communication",
-      "milestones": [{
-        "titles": [  ]
-      }]
+      "milestones": []
     },
     'CRAFT': {
       "displayName": "Craft",
-      "milestones": [{
-        "titles": []
-      }]
+      "milestones": []
     },
     'USERS': {
       "displayName": "Users",
@@ -203,51 +199,35 @@ export const tracks: Tracks = {
     },
     'ORG_DESIGN': {
       "displayName": "Organisation Design",
-      "milestones": [{
-        "titles": []
-      }]
+      "milestones": []
     },
     'WELLBEING': {
       "displayName": "Wellbeing",
-      "milestones": [{
-        "titles": []
-      }]
+      "milestones": []
     },
     'ACCOMPLISHMENT': {
       "displayName": "Accomplishment",
-      "milestones": [{
-        "titles": []
-      }]
+      "milestones": []
     },
     'CAREER_DEVELOPMENT': {
       "displayName": "Career Development",
-      "milestones": [{
-        "titles": []
-      }]
+      "milestones": []
     },
     'AMBASSADORSHIP': {
       "displayName": "Ambassadorship",
-      "milestones": [{
-        "titles": []
-      }]
+      "milestones": []
     },
     'RECRUITING': {
       "displayName": "Recruiting",
-      "milestones": [{
-        "titles": []
-      }]
+      "milestones": []
     },
     'COMMUNITY': {
       "displayName": "Community",
-      "milestones": [{
-        "titles": []
-      }]
+      "milestones": []
     },
     'KNOWLEDGE': {
       "displayName": "Knowledge",
-      "milestones": [{
-        "titles": []
-      }]
+      "milestones": []
     }
 }
 

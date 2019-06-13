@@ -29,6 +29,7 @@ class TitleSelector extends React.Component {
       {selectorTrackTitles.map(trackMilestoneTitles => {
         const trackMilestoneTitle = trackMilestoneTitles[0]
         return (
+        trackMilestoneTitles[1].length > 0 ?
           <optgroup key={trackMilestoneTitles[0]} label={trackMilestoneTitles[0]}>
             {Array.from(trackMilestoneTitles[1]).map((milestoneTitles) => (
               milestoneTitles['titles'] !== undefined ?
@@ -39,6 +40,7 @@ class TitleSelector extends React.Component {
               )) : null
             ))}
           </optgroup>
+          : null
         )
       })}
     </select>
