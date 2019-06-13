@@ -29,9 +29,9 @@ class SalaryDisplay extends React.Component {
                     min-width: 300px;
                     text-align: center;
                     }
-                    div.sub {
+                    p.sub {
                         margin-top: 20px;
-                        font-size: 67%;
+                        font-size: 20px;
                     }
                 `}</style>
                 <p className="salary">
@@ -42,9 +42,9 @@ class SalaryDisplay extends React.Component {
                     <span>to</span>
                     &nbsp;
                     <CurrencyFormat value={this.salaryHigh} displayType={'text'} thousandSeparator={true} prefix={'£'}></CurrencyFormat>
-                    <div className="sub">
-                        depending on skills and capabilities.
-                    </div>
+                </p>
+                <p className="salary sub">
+                    depending on skills and capabilities.
                 </p>
             </div>
         )

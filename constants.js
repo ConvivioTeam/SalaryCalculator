@@ -160,13 +160,23 @@ export const tracks: Tracks = {
     'PROJECT_MANAGEMENT': {
       "displayName": "Project Management",
       "milestones": [{
-        "titles": []
+        "titles": [ "Project Mananger", "Project Coordinatior", "Project Scheduler" ]
+      }, {
+        "titles": [ "Staff Project Manager", "Assistant Project Mananger", "Delivery Manager" ]
+      }, {
+        "titles": [ "Senior Project Mananger", "Senior Delivery Manager" ]
+      }, {
+        "titles": [ "Lead Project Mananger", "Lead Operations Manager", "Lead Delivery Manager" ]
+      }, {
+        "titles": [ "Principle Project Mananger", "Principle Operations Manager", "Head of Program/Project", "Project Director" ]
+      }, {
+        "titles": [ "Operations Director", "Chief Project Officer" ]
       }]
     },
     'COMMUNICATION': {
       "displayName": "Communication",
       "milestones": [{
-        "titles": []
+        "titles": [  ]
       }]
     },
     'CRAFT': {
@@ -178,7 +188,17 @@ export const tracks: Tracks = {
     'USERS': {
       "displayName": "Users",
       "milestones": [{
-        "titles": []
+        "titles": [ "UX Designer", "UX Researcher" ]
+      }, {
+        "titles": [ "Staff UX Designer", "Staff UX Researcher" ]
+      }, {
+        "titles": [ "Senior UX Designer", "Senior UX Researcher", "UX Manager" ]
+      }, {
+        "titles": [ "Lead UX Designer", "Lead UX Researcher", "Lead UX Manager" ]
+      }, {
+        "titles": [ "Principle UX Designer", "Princple UX Researcher", "Principle UX Manager" ]
+      }, {
+        "titles": [  ]
       }]
     },
     'ORG_DESIGN': {
