@@ -84,7 +84,7 @@ class SalaryCalculatorApp extends React.Component<Props, SalaryCalculatorAppStat
                     body {
                         background-color: #EC604B;
                         color: #F8F4EA;
-                        font-family: Helvetica;
+                        font-family: "Galano Grotesque W00 Bold",Helvetica,Arial,san-serif;
                     }
                     main {
                         width: 960px;
