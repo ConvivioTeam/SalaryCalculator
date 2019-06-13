@@ -210,12 +210,24 @@ export const tracks: Tracks = {
       }, {
         "titles": []
       }, {
-        "titles": []
+        "titles": [ "Chief Executive Officer (CEO)", "Managing Director" ]
       }]
     },
     'WELLBEING': {
       "displayName": "Wellbeing",
-      "milestones": []
+      "milestones": [{
+        "titles": ["Personnel Assistant", "HR Assistant"]
+      }, {
+        "titles": ["Personnel Specialist", "HR Specialist"]
+      }, {
+        "titles": ["Senior Personnel Specialist", "Senior HR Specialist", "Personnel Manager"]
+      }, {
+        "titles": ["Lead Personnel Manager"]
+      }, {
+        "titles": ["Personnel Director", "HR Director", "Principle Personnel Manager"]
+      }, {
+        "titles": []
+      }]
     },
     'ACCOMPLISHMENT': {
       "displayName": "Accomplishment",
@@ -223,7 +235,19 @@ export const tracks: Tracks = {
     },
     'CAREER_DEVELOPMENT': {
       "displayName": "Career Development",
-      "milestones": []
+      "milestones": [{
+        "titles": ["Personnel Assistant", "HR Assistant"]
+      }, {
+        "titles": ["Personnel Specialist", "HR Specialist"]
+      }, {
+        "titles": ["Senior Personnel Specialist", "Senior HR Specialist", "Personnel Manager"]
+      }, {
+        "titles": ["Lead Personnel Manager"]
+      }, {
+        "titles": ["Personnel Director", "HR Director", "Principle Personnel Manager"]
+      }, {
+        "titles": []
+      }]
     },
     'AMBASSADORSHIP': {
       "displayName": "Ambassadorship",
@@ -239,8 +263,7 @@ export const tracks: Tracks = {
         "titles": []
       }, {
         "titles": [ "Chief Executive Officer (CEO)", "Managing Director" ]
-      }
-      ]
+      }]
     },
     'RECRUITING': {
       "displayName": "Recruiting",
